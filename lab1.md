@@ -10,10 +10,8 @@
 
 
 ## ศึกษาข้อมูลเบื้องต้น
-*PlatformIO
-#1 https://platformio.org/ #1 
-*01 run example 1
-[GitHub](https://www.youtube.com/watch?v=NLIUsWLEpmg)
+* [PlatformIO]( https://platformio.org/ )
+* [01 run example 1](https://www.youtube.com/watch?v=NLIUsWLEpmg)
 
 ## วิธีการทำการทดลอง
 1.	เริ่มจากการต่อ USB เข้ากับอุปกรณ์ต่อ USB to Serial Port 
