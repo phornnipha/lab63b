@@ -16,7 +16,16 @@
 ## ศึกษาข้อมูลเบื้องต้น
 
 ## วิธีการทำการทดลอง 
+1.เริ่มจากการต่อ USB ที่ต่อเชื่อมกับคอมพิวเตอร์ เข้ากับตัว USB to Serial Port
 
+  ![image](https://user-images.githubusercontent.com/80879777/112014167-386fc300-8b5d-11eb-9ae9-118774ac8e2d.png)
+
+  2.นำ Adapterต่อเข้าทาง Serial Port
+  
+  ![image](https://user-images.githubusercontent.com/80879777/112043443-43d1e700-8b7b-11eb-983a-67b0a39824c3.png)
+
+  3.นำ ไมโครคอนโทรเลอร์ (ESP_01) ต่อเข้ากับ Serial Port ของ Adapter
+  
 ## การบันทึกผลการทดลอง
 
 ## อภิปรายผลการทดลอง
