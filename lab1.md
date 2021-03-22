@@ -6,8 +6,8 @@
 
 ## อุปกรณ์ที่ใช้
 1.	ไมโครคอนโทรเลอร์ เช่น ESP_01
-2.	USB , อุปกรณ์ต่อ USB
-3.	Board
+2.	USB 
+3.	USB to Serial Port
 4.	อุปกรณ์ที่ใช้ในเขียนโปรแกรม เช่น คอมพิวเตอร์ เป็นต้น
 
 
@@ -21,11 +21,11 @@
   * [01 run example 1](https://www.youtube.com/watch?v=NLIUsWLEpmg)
 
 ## วิธีการทำการทดลอง
-1.	เริ่มจากการต่อ USB ที่ต่อเชื่อมกับคอมพิวเตอร์ เข้ากับตัว Board
+1.	เริ่มจากการต่อ USB ที่ต่อเชื่อมกับคอมพิวเตอร์ เข้ากับตัว USB to Serial Port
 
 ![image](https://user-images.githubusercontent.com/80879777/112014167-386fc300-8b5d-11eb-9ae9-118774ac8e2d.png)
 
-2.	นำไมโครคอนโทรเลอร์ ( ESP_01 ) ต่อเข้าทาง Serial Port ของตัว Board	
+2.	นำไมโครคอนโทรเลอร์ ( ESP_01 ) ต่อเข้าทาง Serial Port ของตัว USB to Serial Port
 
 ![image](https://user-images.githubusercontent.com/80879777/112014545-956b7900-8b5d-11eb-88f4-81741df1817f.png)
 
