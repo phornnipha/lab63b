@@ -13,9 +13,9 @@
 
 ## ศึกษาข้อมูลเบื้องต้น
 1. การติดตั้งโปรแกรม
-* https://www.youtube.com/watch?v=ocrGdJoP90Y
+   * https://www.youtube.com/watch?v=ocrGdJoP90Y
 2.	ข้อมูลของไมโครคอนโทรเลอร์
-* [PlatformIO]( https://platformio.org/ )
+   * [PlatformIO]( https://platformio.org/ )
 
 * ตัวอย่างการรัน
   * [01 run example 1](https://www.youtube.com/watch?v=NLIUsWLEpmg)
@@ -23,7 +23,7 @@
 ## วิธีการทำการทดลอง
 1.	เริ่มจากการต่อ USB ที่ต่อเชื่อมกับคอมพิวเตอร์ เข้ากับตัว Board
 2.	นำไมโครคอนโทรเลอร์ ( ESP_01 ) ต่อเข้าทาง Serial Port ของตัว Board
-3.	ทำการเปิดโปรแกรม( Command Prompt )ที่จะทำการรัน เข้าโฟลเดอร์ที่บันทึกตัวอย่างโปรแกรมเอาไว้ เช่น โฟลเดอร์ชื่อ”Pattani” พิมพ์ *cd Pattani* จะมีตัวอย่างโปรแกรมอยู่ 9 ตัว คือ
+3.	ทำการเปิดโปรแกรม( Command Prompt )ที่จะทำการรัน เข้าโฟลเดอร์ที่บันทึกตัวอย่างโปรแกรมเอาไว้ เช่น โฟลเดอร์ชื่อ”Pattani” พิมพ์ **cd Pattani** จะมีตัวอย่างโปรแกรมอยู่ 9 ตัว คือ
    * 01_Serial-Monitor
    * 02_Scan-Wifi
    * 03_Output-Port
