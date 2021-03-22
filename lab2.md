@@ -13,13 +13,11 @@
 
 
 ## ศึกษาข้อมูลเบื้องต้น
-1. การติดตั้งโปรแกรม
-   * https://www.youtube.com/watch?v=ocrGdJoP90Y
-2. ข้อมูลของไมโครคอนโทรเลอร์
-   * [PlatformIO]( https://platformio.org/ )
+*
+*
 
 * ตัวอย่างการรัน
-  * [01 run example 1](https://www.youtube.com/watch?v=NLIUsWLEpmg)
+  * [02 run example 2](https://youtu.be/yBjab0UNuB8)
 
 ## วิธีการทำการทดลอง
 1.	เริ่มจากการต่อ USB ที่ต่อเชื่อมกับคอมพิวเตอร์ เข้ากับตัว USB to Serial Port
@@ -43,6 +41,12 @@
 
 ![image](https://user-images.githubusercontent.com/80879777/112014594-a1573b00-8b5d-11eb-9852-1f429a532153.png)
 
+4.	โดยการทดลองนี้ จะเรียกใช้ตัวอย่างโปรแกรมที่ 02 พิมพ์ **cd 02_Scan-Wifi***  
+5.	พิมพ์  **vi src/main.cpp ** โดยมี 2 ส่วน  ส่วนแรก คือส่วน setup() ซึ่งจะ run ครั้งเดียว ซึ่งจะ setup Wifi ให้พร้อมทำงาน และส่วนที่สอง คือส่วน loop() ซึ่งจะ run วนloop ตลอดไป โดยจะแสดงผลว่าเริ่มต้นแกนหา Wifi 
+6.	รันคำสั่ง *pio run -t upload* เพื่อที่จะ upload โปรแกรม  02_Scan-Wifi ลงใน ESP_01
+7.	กดปุ่มดำค้างไว้แล้วกดปุ่ม reset เพื่อให้ ESP_01 รับโปรแกรมใหม่เข้าไป 
+8.	รันคำสั่ง* pio device monitor* เพื่อดูผลที่แสดงผลออกมาบนmonitor จะเห็นได้ว่าไมโครคอนโทรเลอร์แสกนหาwifi ตัวไหนเจอบ้าง 
+9.	ลองกดปุ่ม reset ตัวไมโครคอนโทรเลอร์จะ reset  แล้วจะเริ่มค้นหาใหม่
 
 ## การบันทึกผลการทดลอง
 
