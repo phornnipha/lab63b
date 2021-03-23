@@ -11,7 +11,7 @@
 4.	อุปกรณ์ที่ใช้ในเขียนโปรแกรม เช่น คอมพิวเตอร์ เป็นต้น
 5.	Adapter
 6.	หลอด LED 
-7.	เซนเซอร์แสง
+7.	เซนเซอร์แสงที่ต่อกับตัวต้านทาน
 
 ## ศึกษาข้อมูลเบื้องต้น
 
@@ -20,13 +20,73 @@
 
   ![image](https://user-images.githubusercontent.com/80879777/112014167-386fc300-8b5d-11eb-9ae9-118774ac8e2d.png)
 
-  2.นำ Adapterต่อเข้าทาง Serial Port
+2.นำ Adapterต่อเข้าทาง Serial Port
   
   ![image](https://user-images.githubusercontent.com/80879777/112043443-43d1e700-8b7b-11eb-983a-67b0a39824c3.png)
 
-  3.นำ ไมโครคอนโทรเลอร์ (ESP_01) ต่อเข้ากับ Serial Port ของ Adapter
+3.นำ ไมโครคอนโทรเลอร์ (ESP_01) ต่อเข้ากับ Serial Port ของ Adapter
+
+  ![image](https://user-images.githubusercontent.com/80879777/112147201-ff902680-8c0e-11eb-8274-0fb6d960cd86.png)
+
+4.ทำการเปิดโปรแกรม( Command Prompt )ที่จะทำการรัน เข้าโฟลเดอร์ที่บันทึกตัวอย่างโปรแกรมเอาไว้ โดยการทดลองนี้ จะเรียกใช้ตัวอย่างโปรแกรมที่ 04 พิมพ์ **04_Input-Port **  และพิมพ์  **vi src/main.cpp** 
+
+  ![image](https://user-images.githubusercontent.com/80879777/112147335-2b131100-8c0f-11eb-9474-abf8b517108d.png)
+
+5.รันคำสั่ง **pio run -t upload** เพื่อที่จะ upload โปรแกรม  04_Input-Port ลงใน ESP_01
+
+  ![image](https://user-images.githubusercontent.com/80879777/112147450-50a01a80-8c0f-11eb-8e9d-5f47aeaf0779.png)
+
+6.กดปุ่มดำค้างไว้แล้วกดปุ่มแดง(reset) เพื่อให้ ESP_01 รับโปรแกรมใหม่เข้าไป 
+
+  ![image](https://user-images.githubusercontent.com/80879777/112147519-61509080-8c0f-11eb-9525-0a75cca2f90c.png)
+
+7.รันคำสั่ง**pio device monitor** เพื่อดูผลที่แสดงผลออกมาบนmonitor 
+
+  ![image](https://user-images.githubusercontent.com/80879777/112147554-6f061600-8c0f-11eb-88b6-23f8ec5c24ec.png)
+
+8.นำสายสีขาว แตะที่เส้นสีดำ
+9.นำสายสีขาว แตะที่เส้นสีแดง
+10.กดปุ่มสีดำ
+11.นำเซนเซอร์แสงที่ต่อกับตัวต้านทาน ต่อขาตัวต้านทานกับเส้นไฟเลี้ยงสายสีแดง และต่อขาที่ร่วมกันระหว่างตัวต้านทานและเซนเซอร์แสงที่สายสีขาว(ต่อทีหลัง) และขาเซนเซอร์แสงอีกข้างต่อเส้นสีดำ
+
+  ![image](https://user-images.githubusercontent.com/80879777/112149358-78907d80-8c11-11eb-8795-cd4b57cb2170.png)
+
+12.นำสายสีขาวต่อกับพอร์ตตรงกลางระหว่างสีแดงกับสีดำ 
+
+  ![image](https://user-images.githubusercontent.com/80879777/112149430-8ba34d80-8c11-11eb-8559-1378b45b88b1.png)
+
+13.ปิดหน้าสัมผัสเซนเซอร์แสง
   
+  ![image](https://user-images.githubusercontent.com/80879777/112149618-c1483680-8c11-11eb-8480-8424cc909f6b.png)
+  
+14.  บันทึกผลการทดลอง
+
 ## การบันทึกผลการทดลอง
+* จากการทดลองหลังจากรันคำสั่ง **pio device monitor** จะเห็นผลที่แสดงออกมาบน monitor จะแสดงผล read 1  
+
+  ![image](https://user-images.githubusercontent.com/80879777/112150846-26505c00-8c13-11eb-98ac-b3df2df6b32c.png)
+
+* หลังจากการนำสายสีขาว แตะที่เส้นสีดำ จะเห็นผลที่แสดงออกมาบน monitor จะแสดงผล read 0 และหลอด LED 	จะสว่าง  
+  
+  ![image](https://user-images.githubusercontent.com/80879777/112150815-1a649a00-8c13-11eb-84ec-60d1eeb4ddce.png)
+
+* หลังจากการนำสายสีขาว แตะที่เส้นสีแดง จะเห็นผลที่แสดงออกมาบน monitor จะแสดงผล read 1 และหลอด LED จะดับ
+
+  ![image](https://user-images.githubusercontent.com/80879777/112150762-0c167e00-8c13-11eb-960f-096d8be4fcf2.png)
+
+* หลังจากการกดปุ่มสีดำ จะเห็นผลที่แสดงออกมาบน monitor จะแสดงผล read 0 และหลอด LED 	จะสว่าง  
+
+  ![image](https://user-images.githubusercontent.com/80879777/112150698-facd7180-8c12-11eb-99ad-ccb152383909.png)
+
+ 
+* หลังจากการนำสายสีขาวต่อกับพอร์ตตรงกลางระหว่างสีแดงกับสีดำ จะเห็นผลที่แสดงออกมาบน monitor จะแสดงผล read 0 และหลอด LED 	จะสว่าง  
+ 
+  ![image](https://user-images.githubusercontent.com/80879777/112150658-ec7f5580-8c12-11eb-9719-5148abfd2452.png)
+
+* หลังจากการปิดหน้าสัมผัสเซนเซอร์แสง จะเห็นผลที่แสดงออกมาบน monitor จะแสดงผล read 1 และหลอด LED จะดับ
+  
+  ![image](https://user-images.githubusercontent.com/80879777/112150588-dbcedf80-8c12-11eb-9377-87f4e341b063.png)
+
 
 ## อภิปรายผลการทดลอง
 
