@@ -17,7 +17,7 @@
 2. ข้อมูลของไมโครคอนโทรเลอร์
    * [PlatformIO]( https://platformio.org/ )
 
-* ตัวอย่างการรัน
+* ตัวอย่างการทำการทดลอง
   * [01 run example 1](https://www.youtube.com/watch?v=NLIUsWLEpmg)
 
 ## วิธีการทำการทดลอง
