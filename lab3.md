@@ -45,7 +45,7 @@
 
   ![image](https://user-images.githubusercontent.com/80879777/112043570-6401a600-8b7b-11eb-913a-958bfed148ed.png)
 
-  6.รันคำสั่ง *pio run -t upload* เพื่อที่จะ upload โปรแกรม  03_Output-Port ลงใน ESP_01
+  6.รันคำสั่ง **pio run -t upload** เพื่อที่จะ upload โปรแกรม  03_Output-Port ลงใน ESP_01
   
   ![image](https://user-images.githubusercontent.com/80879777/112043628-74b21c00-8b7b-11eb-9ba7-3e4d8d19322f.png)
 
@@ -63,7 +63,7 @@
   1.ถอดไมโครคอนโทรเลอร์ (ESP_01) ออกจาก Serial Port ของ Adapter แล้วนำไปต่อกับ Serial Port ของ Relay พร้อมต่อไฟ 5 V เข้า Relay
 ![image](https://user-images.githubusercontent.com/80879777/112044717-b8f1ec00-8b7c-11eb-809b-b22ddb80d42b.png)
 
-*บันทึกผลการทดลอง
+* บันทึกผลการทดลอง
 
 
 ## การบันทึกผลการทดลอง
