@@ -45,7 +45,7 @@
 4.	โดยการทดลองนี้ จะเรียกใช้ตัวอย่างโปรแกรมที่ 01 พิมพ์ **cd 01_Serial-Monitor**  
 
 ![image](https://user-images.githubusercontent.com/80879777/112015843-c4361f00-8b5e-11eb-9a6f-513499bb1e4c.png)
-https://github.com/phornnipha/lab1/blob/main/IMG_0631.PNG
+
 
 5.	พิมพ์  **vi src/main.cpp** ซึ่งเป็นโปรแกรมที่เขียนขึ้นมาเพื่อทดสอบไมโครคอนโทรเลอร์ ซึ่งมีอยู่ 15 บรรทัด มี 2 ส่วนโดย เขียนด้วยภาษา C หรือ C++ ส่วนแรก คือส่วน setup() ซึ่งจะ run ครั้งเดียว ซึ่งจะ set serial Port ที่ความเร็ว 115200 และส่วนที่สอง คือส่วน loop() ซึ่งจะ run วนloop ตลอดไป 
 
