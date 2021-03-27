@@ -29,7 +29,7 @@
 
   ![image](https://user-images.githubusercontent.com/80879777/112166151-f5c3ee80-8c21-11eb-98d2-86074a7d06be.png)
 
-3. การเปิดโปรแกรม( Command Prompt )ที่จะทำการรัน เข้าโฟลเดอร์ที่บันทึกตัวอย่างโปรแกรมเอาไว้ โดยการทดลองนี้ จะเรียกใช้ตัวอย่างโปรแกรมที่ 06 พิมพ์ **06_Wifi-AP-Web-Server**  และพิมพ์  **vi src/main.cpp**
+3. การเปิดโปรแกรม( Command Prompt )ที่จะทำการรัน เข้าโฟลเดอร์ที่บันทึกตัวอย่างโปรแกรมเอาไว้ โดยการทดลองนี้ จะเรียกใช้ตัวอย่างโปรแกรมที่ 06 พิมพ์ **cd 06_Wifi-AP-Web-Server**  และพิมพ์  **vi src/main.cpp**
 
   ![image](https://user-images.githubusercontent.com/80879777/112166193-fe1c2980-8c21-11eb-812f-40aeb66d7535.png)
 
