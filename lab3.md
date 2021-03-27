@@ -41,7 +41,7 @@
   
   ![image](https://user-images.githubusercontent.com/80879777/112045429-6d8c0d80-8b7d-11eb-9155-62dc70fcf070.png)
 
-  5.ทำการเปิดโปรแกรม( Command Prompt )ที่จะทำการรัน เข้าโฟลเดอร์ที่บันทึกตัวอย่างโปรแกรมเอาไว้ โดยการทดลองนี้ จะเรียกใช้ตัวอย่างโปรแกรมที่ 03 พิมพ์ **03_Output-Port**  และพิมพ์  **vi src/main.cpp** 
+  5.ทำการเปิดโปรแกรม( Command Prompt )ที่จะทำการรัน เข้าโฟลเดอร์ที่บันทึกตัวอย่างโปรแกรมเอาไว้ โดยการทดลองนี้ จะเรียกใช้ตัวอย่างโปรแกรมที่ 03 พิมพ์ **cd 03_Output-Port**  และพิมพ์  **vi src/main.cpp** 
 
   ![image](https://user-images.githubusercontent.com/80879777/112043570-6401a600-8b7b-11eb-913a-958bfed148ed.png)
 
@@ -53,7 +53,7 @@
  
   ![image](https://user-images.githubusercontent.com/80879777/112043717-8b587300-8b7b-11eb-9eb9-0be349803367.png)
 
-  8.รันคำสั่ง* pio device monitor* เพื่อดูผลที่แสดงผลออกมาบนmonitor 
+  8.รันคำสั่ง**pio device monitor**เพื่อดูผลที่แสดงผลออกมาบนmonitor 
    
   ![image](https://user-images.githubusercontent.com/80879777/112044148-0d489c00-8b7c-11eb-9972-af6d2d9169d4.png)
 
