@@ -21,7 +21,7 @@
    * [PlatformIO]( https://platformio.org/ )
    * [ESP_01](https://docs.platformio.org/en/latest/boards/espressif8266/esp01_1m.html)
 3. การเขียนโปรแกรม
-   *[การเขียนโปรแกรมโดยใช้ภาษาของ Arduino](http://www.sbt.ac.th/new/sites/default/files/TNP_Unit_3.pdf?fbclid=IwAR3S3sb5SMzHRW5Dq7SKVO-rd_HUcSAs75nkiaa3eNkx-PtzpSwNbk3Nzgs)
+   * [การเขียนโปรแกรมโดยใช้ภาษาของ Arduino](http://www.sbt.ac.th/new/sites/default/files/TNP_Unit_3.pdf?fbclid=IwAR3S3sb5SMzHRW5Dq7SKVO-rd_HUcSAs75nkiaa3eNkx-PtzpSwNbk3Nzgs)
 4. Code ที่ใช้ในการทดลองนี้
    * [code]( https://github.com/phornnipha/lab-7/blob/main/lab_7.cpp)
 
